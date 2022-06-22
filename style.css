@@ -58,3 +58,37 @@ li{
     align-items: center;
     justify-content: center;
 }
+#about,#discord,#contact{
+    padding: 48px 0;
+}
+/*---ABOUT----*/
+#about{
+    background-color: #f8ffdc;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.section__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__description--wrapper{
+    width: 60%;
+}
+.about__image--wrapper{
+    width: 40%;
+}
+img{
+    width: 100%;
+}
+.about__image--wrapper, .section__description--wrapper{
+    padding: 0 24px;
+}
+.section__description--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
