@@ -58,7 +58,7 @@ li{
     align-items: center;
     justify-content: center;
 }
-#about,#discord,#contact{
+#about,#discord,#contact, footer{
     padding: 48px 0;
 }
 /*---ABOUT----*/
@@ -114,4 +114,21 @@ input, textarea{
     margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
+}
+/*---Footer----*/
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__img{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+.footer__links{
+    margin-bottom: 32px;
+}
+.footer__link{
+    padding: 0 16px;
 }
